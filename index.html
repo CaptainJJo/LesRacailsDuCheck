@@ -17,7 +17,17 @@
             </ul>
         </nav>
     </header>
+<button id="scrollButton">Défiler vers le bas</button>
 
+<script>
+    document.getElementById('scrollButton').addEventListener('click', function() {
+        window.scrollBy({
+            top: 500, // La distance de défilement en pixels
+            left: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
     <section id="about">
         <h2>À propos de moi</h2>
         <p>Si tu sais pas utiliser le Haki des Kheys tu devrait pas être sur ce site.</p>
