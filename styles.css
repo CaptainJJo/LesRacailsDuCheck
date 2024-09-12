@@ -8,6 +8,18 @@ body {
     color: #333;
 }
 
+#scrollButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 header {
     background-color: #4CAF50;
     padding: 20px;
